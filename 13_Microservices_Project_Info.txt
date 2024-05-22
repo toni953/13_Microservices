@@ -1,0 +1,65 @@
+ // Microservices and Project info
+
+1. emailservice
+
+Handles email notifications. Sends emails for order confirmations, shipping notifications, and other customer communications.
+checkoutservice
+
+2. checkoutservice
+
+Manages the checkout process. Coordinates between various services like payment, shipping, and email to complete the purchase.
+recommendationservice
+
+3. recommendationservice
+
+Provides product recommendations. Uses data from the product catalog and user behavior to suggest items to users.
+frontend
+
+4. frontend
+
+Serves the user interface of the application. Acts as a web server that hosts the web application users interact with.
+adservice
+
+5. adservice
+
+Displays advertisements. Provides ad content based on user preferences and context within the application.
+shippingservice
+
+6. shippingservice
+
+Manages shipping logistics. Calculates shipping costs and handles shipment tracking for orders.
+paymentservice
+
+7. paymentservice
+
+Processes payments. Manages transactions and ensures secure payment processing for orders.
+productcatalogservice
+
+8. productcatalogservice
+
+Maintains the product catalog. Provides information on available products, including details, prices, and stock levels.
+cartservice
+
+9. cartservice
+
+Manages the shopping cart. Handles adding, removing, and updating items in a user's shopping cart.
+currencyservice
+
+10. currencyservice
+
+Manages currency conversions. Provides exchange rates and converts prices to different currencies as needed.
+inventoryservice
+
+11. inventoryservice
+
+Manages inventory levels. Keeps track of stock levels and updates them as orders are placed or items are restocked.
+userauthservice
+
+12. userauthservice
+
+Handles user authentication and authorization. Manages user login, registration, and access controls.
+orderservice
+
+13. orderservice
+
+Manages order processing. Handles order creation, updating order status, and keeping track of order history.
